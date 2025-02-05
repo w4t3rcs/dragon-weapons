@@ -1,0 +1,31 @@
+package io.w4t3rcs.dragonweapons.data.modifier;
+
+import com.temporal.api.core.engine.io.metadata.annotation.DefinedGlobalLootModifier;
+import com.temporal.api.core.engine.io.metadata.annotation.Injected;
+import com.temporal.api.core.event.data.modifier.ChestModifierDescription;
+import io.w4t3rcs.dragonweapons.core.registry.DragonItems;
+import net.minecraft.world.item.Item;
+
+@DefinedGlobalLootModifier
+@Injected(false)
+public class DragonIngotEndChestGlobalLootModifier implements ChestModifierDescription {
+    @Override
+    public String getModifierName() {
+        return "dragon_ingot_end_chest_modifier";
+    }
+
+    @Override
+    public Item getItem() {
+        return DragonItems.DRAGON_INGOT.get();
+    }
+
+    @Override
+    public String getChestId() {
+        return "chests/end_city_treasure";
+    }
+
+    @Override
+    public float getChance() {
+        return 0.05f;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "dragonweapons:dragon_scale",
+    "dragonweapons:dragon_scale",
+    "dragonweapons:dragon_scale",
+    "dragonweapons:dragon_scale",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dragonweapons:dragon_ingot"
+  }
+}

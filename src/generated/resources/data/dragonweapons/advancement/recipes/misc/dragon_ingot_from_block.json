@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dragonweapons:dragon_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonweapons:dragon_ingot_from_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dragon_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonweapons:dragon_ingot_from_block"
+    ]
+  }
+}

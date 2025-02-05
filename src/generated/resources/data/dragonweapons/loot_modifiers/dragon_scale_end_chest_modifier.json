@@ -1,0 +1,14 @@
+{
+  "type": "dragonweapons:add_item_modifier_serializer",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/end_city_treasure"
+    },
+    {
+      "chance": 0.25,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "dragonweapons:dragon_scale"
+}

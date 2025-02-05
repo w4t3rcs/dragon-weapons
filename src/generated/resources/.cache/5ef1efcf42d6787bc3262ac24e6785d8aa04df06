@@ -1,0 +1,4 @@
+// 1.21.4	2025-02-05T10:37:59.0172865	Global Loot Modifiers : dragonweapons
+f2eafff951576c6e053e5d6d1222798af558749c data/dragonweapons/loot_modifiers/dragon_ingot_end_chest_modifier.json
+800a657126ef075a0eb0ca70ea0960f4f47ea9ef data/dragonweapons/loot_modifiers/dragon_scale_end_chest_modifier.json
+652c2d0d6fb160faf0733dbdcd163b81dc0915d3 data/neoforge/loot_modifiers/global_loot_modifiers.json
