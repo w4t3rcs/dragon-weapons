@@ -10,7 +10,7 @@ import net.minecraft.core.Holder;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 
 @Injected(false)
-public class GlobalLootModifierSerializers {
+public class DragonGlobalLootModifierSerializers {
     @Registry
     public static final LootModifierSerializerFactory LOOT_MODIFIER_SERIALIZER_FACTORY = new LootModifierSerializerFactory();
     public static final Holder<MapCodec<? extends IGlobalLootModifier>> ADD_LOOT_MODIFIER_SERIALIZER = LOOT_MODIFIER_SERIALIZER_FACTORY.create("add_item_modifier_serializer", AddItemModifier.CODEC::get);

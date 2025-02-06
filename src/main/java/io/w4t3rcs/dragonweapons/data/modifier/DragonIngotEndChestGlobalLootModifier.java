@@ -26,6 +26,6 @@ public class DragonIngotEndChestGlobalLootModifier implements ChestModifierDescr
 
     @Override
     public float getChance() {
-        return 0.05f;
+        return 0.33f;
     }
 }
