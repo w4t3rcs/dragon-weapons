@@ -11,5 +11,6 @@
   "item.dragonweapons.dragon_pickaxe": "Dragon Pickaxe",
   "item.dragonweapons.dragon_scale": "Dragon Scale",
   "item.dragonweapons.dragon_shovel": "Dragon Shovel",
-  "item.dragonweapons.dragon_sword": "Dragon Sword"
+  "item.dragonweapons.dragon_sword": "Dragon Sword",
+  "sounds.dragonweapons.armor_equip_dragon": "Dragon armor clanks"
 }
