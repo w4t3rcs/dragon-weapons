@@ -1,7 +1,7 @@
 package io.w4t3rcs.dragonweapons.data.recipe;
 
-import com.temporal.api.core.engine.io.metadata.annotation.DefinedRecipe;
-import com.temporal.api.core.engine.io.metadata.annotation.Injected;
+import com.temporal.api.core.engine.io.metadata.annotation.data.defined.DefinedRecipe;
+import com.temporal.api.core.engine.io.metadata.annotation.injection.Injected;
 import com.temporal.api.core.event.data.recipe.holder.NineShapedRecipeHolder;
 import io.w4t3rcs.dragonweapons.core.registry.DragonBlocks;
 import io.w4t3rcs.dragonweapons.core.registry.DragonItems;

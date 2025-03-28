@@ -15,7 +15,7 @@ public final class CreativeModeTabEventListener {
     public static void listenDataEvent(BuildCreativeModeTabContentsEvent event) {
         SimpleTabDirector.create(event)
                 .direct(CreativeModeTabs.INGREDIENTS,
-                        DragonItems.DRAGON_SCALE, DragonItems.DRAGON_INGOT)
+                        DragonItems.DRAGON_SCALE, DragonItems.DRAGON_INGOT, DragonItems.DRAGON_SMITHING_TEMPLATE)
                 .direct(CreativeModeTabs.COMBAT,
                         DragonItems.DRAGON_SWORD, DragonItems.DRAGON_AXE,
                         DragonItems.DRAGON_HELMET, DragonItems.DRAGON_CHESTPLATE, DragonItems.DRAGON_LEGGINGS, DragonItems.DRAGON_BOOTS)

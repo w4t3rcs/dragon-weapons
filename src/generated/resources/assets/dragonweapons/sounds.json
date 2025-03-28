@@ -1,0 +1,10 @@
+{
+  "armor_equip_dragon": {
+    "sounds": [
+      "dragonweapons:armor_equip_dragon_1.ogg",
+      "dragonweapons:armor_equip_dragon_2.ogg",
+      "dragonweapons:armor_equip_dragon_3.ogg"
+    ],
+    "subtitle": "sound.dragonweapons.armor_equip_dragon"
+  }
+}

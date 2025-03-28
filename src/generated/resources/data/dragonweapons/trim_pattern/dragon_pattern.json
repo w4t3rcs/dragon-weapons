@@ -1,0 +1,8 @@
+{
+  "asset_id": "dragonweapons:dragon_pattern",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.dragonweapons.dragon_pattern"
+  },
+  "template_item": "dragonweapons:dragon_armor_smithing_template"
+}

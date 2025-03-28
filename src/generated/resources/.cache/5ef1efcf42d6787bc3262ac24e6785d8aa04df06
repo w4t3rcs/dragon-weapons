@@ -1,4 +1,5 @@
-// 1.21.4	2025-02-07T17:47:47.569409	Global Loot Modifiers : dragonweapons
+// 1.21.4	2025-03-26T23:04:17.4676613	Global Loot Modifiers : dragonweapons
 fbd9fbbc4fd65e670853154650ab5fe7b8b08d39 data/dragonweapons/loot_modifiers/dragon_ingot_end_chest_modifier.json
 3e8a49a476c3a0497cd69d6c526de75a96bbee15 data/dragonweapons/loot_modifiers/dragon_scale_end_chest_modifier.json
-652c2d0d6fb160faf0733dbdcd163b81dc0915d3 data/neoforge/loot_modifiers/global_loot_modifiers.json
+25192f7d9e4e7e3c61e72767998614138a65af05 data/dragonweapons/loot_modifiers/dragon_smithing_template_end_chest_modifier.json
+6894c52859b05283f1ff872291ef7f7b0564e049 data/neoforge/loot_modifiers/global_loot_modifiers.json

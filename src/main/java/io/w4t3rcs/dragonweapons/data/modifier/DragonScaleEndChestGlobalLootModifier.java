@@ -1,7 +1,7 @@
 package io.w4t3rcs.dragonweapons.data.modifier;
 
-import com.temporal.api.core.engine.io.metadata.annotation.DefinedGlobalLootModifier;
-import com.temporal.api.core.engine.io.metadata.annotation.Injected;
+import com.temporal.api.core.engine.io.metadata.annotation.data.defined.DefinedGlobalLootModifier;
+import com.temporal.api.core.engine.io.metadata.annotation.injection.Injected;
 import com.temporal.api.core.event.data.modifier.ChestModifierDescription;
 import io.w4t3rcs.dragonweapons.core.registry.DragonItems;
 import net.minecraft.world.item.Item;

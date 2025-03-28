@@ -1,0 +1,8 @@
+{
+  "asset_name": "dragon_material",
+  "description": {
+    "color": "#5E576F",
+    "translate": "trim_material.dragonweapons.dragon_material"
+  },
+  "ingredient": "dragonweapons:dragon_ingot"
+}

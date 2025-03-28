@@ -11,7 +11,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 public final class DragonItemFactory extends ItemFactory implements SwordExtension,
         PickaxeExtension, AxeExtension, ShovelExtension, HoeExtension,
-        ArmorExtension {
+        ArmorExtension, SmithingTemplateExtension {
     public DeferredItem<Item> createDragonArmor(String name, ArmorMaterial material, ArmorType type, Item.Properties properties) {
         ItemFactory itemFactory = InjectionContext.getFromInstance(ItemFactory.class);
         return itemFactory.create(name, properties, (props) -> new DragonArmorItem(material, type, props));
