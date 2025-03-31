@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "dragonweapons:dragon_scale",
-    "dragonweapons:dragon_scale",
-    "dragonweapons:dragon_scale",
-    "dragonweapons:dragon_scale",
     "minecraft:phantom_membrane",
     "minecraft:phantom_membrane",
     "minecraft:phantom_membrane",
-    "minecraft:phantom_membrane"
+    "minecraft:phantom_membrane",
+    "dragonweapons:dragon_scale",
+    "dragonweapons:dragon_scale",
+    "dragonweapons:dragon_scale",
+    "dragonweapons:dragon_scale"
   ],
   "result": {
     "count": 1,
