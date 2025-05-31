@@ -102,7 +102,7 @@ repositories {
 }
 
 dependencies {
-    implementation "curse.maven:temporalapi-970291:6372422"
+    implementation "curse.maven:temporalapi-970291:6559579"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
