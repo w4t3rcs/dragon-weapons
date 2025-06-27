@@ -1,5 +1,6 @@
 package io.w4t3rcs.dragonweapons.core.registry;
 
+import com.temporal.api.core.engine.io.context.InjectionContext;
 import com.temporal.api.core.engine.io.metadata.annotation.data.language.EnglishTranslation;
 import com.temporal.api.core.engine.io.metadata.annotation.data.model.ItemModel;
 import com.temporal.api.core.engine.io.metadata.annotation.data.tag.ItemTagComponent;
@@ -16,7 +17,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 @Injected(false)
 public final class DragonItems {
     @Registry
-    private static final DragonItemFactory ITEM_FACTORY = new DragonItemFactory();
+    private static final DragonItemFactory ITEM_FACTORY = InjectionContext.getFromInstance(DragonItemFactory.class);
     
     @ItemModel
     @EnglishTranslation("Dragon Scale")

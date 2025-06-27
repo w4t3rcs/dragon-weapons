@@ -16,7 +16,6 @@ public final class LivingDropsEventListener {
     @SubscribeEvent
     public static void listenLivingDrops(LivingDeathEvent event) {
         if (event.getEntity() instanceof EnderDragon dragon) {
-            System.out.println("Yo");
             Level level = dragon.level();
             RandomSource randomSource = level.random;
             for (int i = 0; i < randomSource.nextInt(8, 15); i++) {

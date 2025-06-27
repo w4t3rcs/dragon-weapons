@@ -1,5 +1,6 @@
 package io.w4t3rcs.dragonweapons.core.registry;
 
+import com.temporal.api.core.engine.io.context.InjectionContext;
 import com.temporal.api.core.engine.io.metadata.annotation.data.language.EnglishTranslation;
 import com.temporal.api.core.engine.io.metadata.annotation.data.model.BlockModel;
 import com.temporal.api.core.engine.io.metadata.annotation.data.other.BlockLootTable;
@@ -13,9 +14,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
 @Injected(false)
-public class DragonBlocks {
+public final class DragonBlocks {
     @Registry
-    private static final BlockFactory BLOCK_FACTORY = new BlockFactory();
+    private static final BlockFactory BLOCK_FACTORY = InjectionContext.getFromInstance(BlockFactory.class);
 
     @BlockModel
     @BlockLootTable
